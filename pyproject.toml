@@ -266,3 +266,5 @@ select = ["PLW1514"]
 "skills/**" = ["PLW1514"]
 "optional-skills/**" = ["PLW1514"]
 "plugins/**" = ["PLW1514"]
+[tool.poetry.plugins."vllm.entrypoints"]
+app = "hermes_cli.web_server:app"
